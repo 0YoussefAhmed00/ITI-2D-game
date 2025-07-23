@@ -1,0 +1,2384 @@
+fileFormatVersion: 2
+guid: 4cda126086629a343956df16e3868340
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4393236836662296617
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_0
+  - first:
+      213: 7239386085395618845
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_1
+  - first:
+      213: 719773314537630349
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_2
+  - first:
+      213: -1399330951645329625
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_3
+  - first:
+      213: -1410572650810723124
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_4
+  - first:
+      213: -5836839353544301004
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_5
+  - first:
+      213: -1065410902168746906
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_6
+  - first:
+      213: 7568365411259786797
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_7
+  - first:
+      213: 155198729464978400
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_8
+  - first:
+      213: 4389552727276633250
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_9
+  - first:
+      213: 8434869946812689486
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_10
+  - first:
+      213: 7156840534043860687
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_11
+  - first:
+      213: -1889799598650584061
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_12
+  - first:
+      213: -6867107450627560654
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_13
+  - first:
+      213: 5957016976991735750
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_14
+  - first:
+      213: 3174688317629082720
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_15
+  - first:
+      213: 7850951963094715549
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_16
+  - first:
+      213: -9184029498978501453
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_17
+  - first:
+      213: -5617264887079401556
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_18
+  - first:
+      213: 8553526825286334331
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_19
+  - first:
+      213: 6191249425895350892
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_20
+  - first:
+      213: 3276375531676069846
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_21
+  - first:
+      213: -5836738070688062903
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_22
+  - first:
+      213: -6413653477459669309
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_23
+  - first:
+      213: -4795437848216204464
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_24
+  - first:
+      213: -2123603265554901416
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_25
+  - first:
+      213: 1172915207804632208
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_26
+  - first:
+      213: 5353551677125757005
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_27
+  - first:
+      213: 3962843998440598695
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_28
+  - first:
+      213: 1728849460498657689
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_29
+  - first:
+      213: -7751066435609393621
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_30
+  - first:
+      213: 7294282968673363668
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_31
+  - first:
+      213: -3469603834552621059
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_32
+  - first:
+      213: 4139511428899954716
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_33
+  - first:
+      213: 2592903072611238029
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_34
+  - first:
+      213: -3926145963529100356
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_35
+  - first:
+      213: -2411066926535160094
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_36
+  - first:
+      213: -7686365123702566
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_37
+  - first:
+      213: -3496345036052257570
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_38
+  - first:
+      213: -4574586476369157568
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_39
+  - first:
+      213: -4857718516859806428
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_40
+  - first:
+      213: 6211366053009702088
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_41
+  - first:
+      213: -4921887855214499728
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_42
+  - first:
+      213: 2902356320542910996
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_43
+  - first:
+      213: -7398388904244631063
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_44
+  - first:
+      213: 3557639137390606186
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_45
+  - first:
+      213: -2948715365426296313
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_46
+  - first:
+      213: 4679981224229936767
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_47
+  - first:
+      213: -2050455079052003777
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_48
+  - first:
+      213: -8216231994479059041
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_49
+  - first:
+      213: -5399809206780283604
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_50
+  - first:
+      213: -9138612675527833715
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_51
+  - first:
+      213: -982535916637490954
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_52
+  - first:
+      213: -7815635489932892514
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_53
+  - first:
+      213: 1399682381095054551
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_54
+  - first:
+      213: -9039301792870996308
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_55
+  - first:
+      213: 8009308250514908731
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_56
+  - first:
+      213: -2069567435493208936
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_57
+  - first:
+      213: 2329927991940736981
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_58
+  - first:
+      213: -2666351104858535745
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_59
+  - first:
+      213: -75749471213457323
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_60
+  - first:
+      213: 1577089762281084251
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_61
+  - first:
+      213: -3200480957193873305
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_62
+  - first:
+      213: -2407495957150371929
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_63
+  - first:
+      213: -4879918970383457039
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_64
+  - first:
+      213: 9108171961792875243
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_65
+  - first:
+      213: 2761839559612633120
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_66
+  - first:
+      213: -4894901058954021518
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_67
+  - first:
+      213: 6314129018810833474
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_68
+  - first:
+      213: -6124446651628674979
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_69
+  - first:
+      213: 4304708704695187652
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_70
+  - first:
+      213: -4274650033579690067
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_71
+  - first:
+      213: 7598155653072794872
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_72
+  - first:
+      213: -386332423528801088
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_73
+  - first:
+      213: -7214892803288478951
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_74
+  - first:
+      213: 3051488555413183154
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_75
+  - first:
+      213: 283714445152553288
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_76
+  - first:
+      213: -1547214417199495903
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_77
+  - first:
+      213: -5026179466188341238
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_78
+  - first:
+      213: 5928809351763996766
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_79
+  - first:
+      213: -6859151291176353259
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_80
+  - first:
+      213: -1027858478117928777
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_81
+  - first:
+      213: 3389245182366867687
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_82
+  - first:
+      213: 3856337866338761373
+    second: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_83
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 773
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920ca6760a9e7fc30800000000000000
+      internalID: 4393236836662296617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 809
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c59ebe947777460800000000000000
+      internalID: 7239386085395618845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 740
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a22db14062df900800000000000000
+      internalID: 719773314537630349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 734
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72788f7d9e3949ce0800000000000000
+      internalID: -1399330951645329625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 740
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4bb8ac5a3ac6ce0800000000000000
+      internalID: -1410572650810723124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 740
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436a8f868816ffea0800000000000000
+      internalID: -5836839353544301004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 740
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6644764ed66e631f0800000000000000
+      internalID: -1065410902168746906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 740
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d262e7c1e3c380960800000000000000
+      internalID: 7568365411259786797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 740
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb1a531c60672200800000000000000
+      internalID: 155198729464978400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 739
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2acbb28d2f2daec30800000000000000
+      internalID: 4389552727276633250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 671
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c636ad68dae0570800000000000000
+      internalID: 8434869946812689486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 683
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce1dc11c84325360800000000000000
+      internalID: 7156840534043860687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 693
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30491c1174516c5e0800000000000000
+      internalID: -1889799598650584061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 679
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23be7ea382223b0a0800000000000000
+      internalID: -6867107450627560654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 631
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf409201639ba250800000000000000
+      internalID: 5957016976991735750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 631
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c2dd46432ce0c20800000000000000
+      internalID: 3174688317629082720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 641
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c8aecd63f24fc60800000000000000
+      internalID: 7850951963094715549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 633
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc7daa64d5cb8080800000000000000
+      internalID: -9184029498978501453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 630
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca78b54c8577b02b0800000000000000
+      internalID: -5617264887079401556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 631
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7777fd345b34b670800000000000000
+      internalID: 8553526825286334331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 631
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62655adc8cbbe550800000000000000
+      internalID: 6191249425895350892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 586
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942a3a926adbffea0800000000000000
+      internalID: -5836738070688062903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 586
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce419ba4202ef6a0800000000000000
+      internalID: -6413653477459669309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 585
+        width: 78
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b0c923fae237db0800000000000000
+      internalID: -4795437848216204464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 584
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8569db0d4127782e0800000000000000
+      internalID: -2123603265554901416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 551
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c39d8ca28074010800000000000000
+      internalID: 1172915207804632208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 551
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4807c1d2e2ab4a40800000000000000
+      internalID: 5353551677125757005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 550
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac275bde99def630800000000000000
+      internalID: 3962843998440598695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 550
+        width: 73
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991f52bac6b1ef710800000000000000
+      internalID: 1728849460498657689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 547
+        width: 65
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b268c0bc42eae6490800000000000000
+      internalID: -7751066435609393621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 512
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d625f696bf7a3560800000000000000
+      internalID: 7294282968673363668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 512
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7682af1bd79dfc0800000000000000
+      internalID: -3469603834552621059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 512
+        width: 74
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10604766bf727930800000000000000
+      internalID: 4139511428899954716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 512
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8003045b97dbf320800000000000000
+      internalID: 2592903072611238029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 476
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3a38b3c078389c0800000000000000
+      internalID: -3926145963529100356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 469
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eecd2a976b2a8ed0800000000000000
+      internalID: -2411066926535160094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 475
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad01039aa41b4eff0800000000000000
+      internalID: -7686365123702566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 474
+        width: 71
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4a7e1d6bc7a7fc0800000000000000
+      internalID: -3496345036052257570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 472
+        width: 63
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042e5b146ddc380c0800000000000000
+      internalID: -4574586476369157568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 434
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ddbb70fbae59cb0800000000000000
+      internalID: -4857718516859806428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 436
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc30971484333650800000000000000
+      internalID: 6211366053009702088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 434
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07861ada211f1bbb0800000000000000
+      internalID: -4921887855214499728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 434
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ae19932bd374820800000000000000
+      internalID: 2902356320542910996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 419
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9ae4c6d74a35990800000000000000
+      internalID: -7398388904244631063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 419
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67b13f32f54f5130800000000000000
+      internalID: 3557639137390606186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 419
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a87048ffe0417d0800000000000000
+      internalID: -2948715365426296313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 403
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e19b9b022a2f040800000000000000
+      internalID: 4679981224229936767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 403
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36b53928f15b83e0800000000000000
+      internalID: -2050455079052003777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 402
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f50e058841afd80800000000000000
+      internalID: -8216231994479059041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 400
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c253af6c2260015b0800000000000000
+      internalID: -5399809206780283604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 361
+        width: 57
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d870847a0302d2180800000000000000
+      internalID: -9138612675527833715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 362
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f072cd1ac45d52f0800000000000000
+      internalID: -982535916637490954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 320
+        width: 85
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e962d905ee8498390800000000000000
+      internalID: -7815635489932892514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 361
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc2b83b5bbac6310800000000000000
+      internalID: 1399682381095054551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 322
+        width: 73
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca66f5269e2fd8280800000000000000
+      internalID: -9039301792870996308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 270
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36eb803b67c62f60800000000000000
+      internalID: 8009308250514908731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 267
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c06b8e16b6743e0800000000000000
+      internalID: -2069567435493208936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 274
+        width: 59
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7edd70a21955020800000000000000
+      internalID: 2329927991940736981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 271
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8cf6c0cc73ffad0800000000000000
+      internalID: -2666351104858535745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 253
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550f56cd142e2fef0800000000000000
+      internalID: -75749471213457323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 246
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b555ba378c2f2e510800000000000000
+      internalID: 1577089762281084251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 222
+        width: 59
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7689e0cb68b9593d0800000000000000
+      internalID: -3200480957193873305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 234
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afecd3be2bd69ed0800000000000000
+      internalID: -2407495957150371929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 226
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4aa952d8b074cb0800000000000000
+      internalID: -4879918970383457039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 218
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea46df542ab66e70800000000000000
+      internalID: 9108171961792875243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 165
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02015555276045620800000000000000
+      internalID: 2761839559612633120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 165
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275bc52db61d11cb0800000000000000
+      internalID: -4894901058954021518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 164
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a943093ea40a750800000000000000
+      internalID: 6314129018810833474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 165
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50a7d31838910ba0800000000000000
+      internalID: -6124446651628674979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 119
+        width: 71
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c873e472c56dbb30800000000000000
+      internalID: 4304708704695187652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 119
+        width: 103
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7fe5941746da4c0800000000000000
+      internalID: -4274650033579690067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 119
+        width: 99
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4b7894f42127960800000000000000
+      internalID: 7598155653072794872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 119
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc995a25b873aaf0800000000000000
+      internalID: -386332423528801088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 56
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bc777b83d8fdb90800000000000000
+      internalID: -7214892803288478951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 56
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba92957ca0195a20800000000000000
+      internalID: 3051488555413183154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 58
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84907f0e8c4ffe300800000000000000
+      internalID: 283714445152553288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 58
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125067f5fa0378ae0800000000000000
+      internalID: -1547214417199495903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 57
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a004b74c76c6f3ab0800000000000000
+      internalID: -5026179466188341238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 57
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5038e871bc574250800000000000000
+      internalID: 5928809351763996766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_80
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 47
+        width: 42
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51285c4fd366fc0a0800000000000000
+      internalID: -6859151291176353259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_81
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 7
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b04864f8205cb1f0800000000000000
+      internalID: -1027858478117928777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_82
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 8
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e06eaf4984090f20800000000000000
+      internalID: 3389245182366867687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_83
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 7
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a72019bd6748530800000000000000
+      internalID: 3856337866338761373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_84
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 740
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e81835acd77994497632db74b3007f
+      internalID: 980048449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_85
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 671
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7320f3abc36601041b83663b22c09c49
+      internalID: -319789360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_86
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 671
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d773070d9e1184eaf1d4be520df973
+      internalID: -56126890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_87
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 671
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2374b5f1adfe28141b1bb91c124604f0
+      internalID: -584957044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d597027ba46dc3c4c8bacf50336871ac
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_0: 4393236836662296617
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_1: 7239386085395618845
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_10: 8434869946812689486
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_11: 7156840534043860687
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_12: -1889799598650584061
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_13: -6867107450627560654
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_14: 5957016976991735750
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_15: 3174688317629082720
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_16: 7850951963094715549
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_17: -9184029498978501453
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_18: -5617264887079401556
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_19: 8553526825286334331
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_2: 719773314537630349
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_20: 6191249425895350892
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_21: 3276375531676069846
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_22: -5836738070688062903
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_23: -6413653477459669309
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_24: -4795437848216204464
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_25: -2123603265554901416
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_26: 1172915207804632208
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_27: 5353551677125757005
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_28: 3962843998440598695
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_29: 1728849460498657689
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_3: -1399330951645329625
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_30: -7751066435609393621
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_31: 7294282968673363668
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_32: -3469603834552621059
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_33: 4139511428899954716
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_34: 2592903072611238029
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_35: -3926145963529100356
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_36: -2411066926535160094
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_37: -7686365123702566
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_38: -3496345036052257570
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_39: -4574586476369157568
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_4: -1410572650810723124
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_40: -4857718516859806428
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_41: 6211366053009702088
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_42: -4921887855214499728
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_43: 2902356320542910996
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_44: -7398388904244631063
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_45: 3557639137390606186
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_46: -2948715365426296313
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_47: 4679981224229936767
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_48: -2050455079052003777
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_49: -8216231994479059041
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_5: -5836839353544301004
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_50: -5399809206780283604
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_51: -9138612675527833715
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_52: -982535916637490954
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_53: -7815635489932892514
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_54: 1399682381095054551
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_55: -9039301792870996308
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_56: 8009308250514908731
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_57: -2069567435493208936
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_58: 2329927991940736981
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_59: -2666351104858535745
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_6: -1065410902168746906
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_60: -75749471213457323
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_61: 1577089762281084251
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_62: -3200480957193873305
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_63: -2407495957150371929
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_64: -4879918970383457039
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_65: 9108171961792875243
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_66: 2761839559612633120
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_67: -4894901058954021518
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_68: 6314129018810833474
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_69: -6124446651628674979
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_7: 7568365411259786797
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_70: 4304708704695187652
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_71: -4274650033579690067
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_72: 7598155653072794872
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_73: -386332423528801088
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_74: -7214892803288478951
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_75: 3051488555413183154
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_76: 283714445152553288
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_77: -1547214417199495903
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_78: -5026179466188341238
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_79: 5928809351763996766
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_8: 155198729464978400
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_80: -6859151291176353259
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_81: -1027858478117928777
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_82: 3389245182366867687
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_83: 3856337866338761373
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_84: 980048449
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_85: -319789360
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_86: -56126890
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_87: -584957044
+      kratos_jus_sprites_by_thejunior142-dbnyh4c-removebg-preview_9: 4389552727276633250
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
