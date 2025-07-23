@@ -10,6 +10,8 @@ public class WiseNPCInteractable : MonoBehaviour, IInteractable
     private PlayerInput playerInput;
     private TMP_InputField inputField;
 
+    private bool waitingForKeyRelease = false;
+
     private void Start()
     {
         if (npcUI != null)
@@ -17,14 +19,12 @@ public class WiseNPCInteractable : MonoBehaviour, IInteractable
 
         IsNPCUIOpen = false;
 
-        // Get player input reference
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
             playerInput = player.GetComponent<PlayerInput>();
         }
 
-        // Get reference to input field
         if (npcUI != null)
         {
             inputField = npcUI.GetComponentInChildren<TMP_InputField>();
@@ -33,18 +33,14 @@ public class WiseNPCInteractable : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        if (npcUI != null)
+        if (npcUI != null && !IsNPCUIOpen)
         {
             npcUI.SetActive(true);
             IsNPCUIOpen = true;
+            waitingForKeyRelease = true;
 
-            // Disable player input
             if (playerInput != null)
                 playerInput.enabled = false;
-
-            // Focus input field
-            if (inputField != null)
-                inputField.ActivateInputField();
         }
     }
 
@@ -54,8 +50,8 @@ public class WiseNPCInteractable : MonoBehaviour, IInteractable
         {
             npcUI.SetActive(false);
             IsNPCUIOpen = false;
+            waitingForKeyRelease = false;
 
-            // Re-enable player input
             if (playerInput != null)
                 playerInput.enabled = true;
         }
@@ -63,10 +59,24 @@ public class WiseNPCInteractable : MonoBehaviour, IInteractable
 
     private void Update()
     {
-        // Only handle ESC for chat if UI is open
-        if (IsNPCUIOpen && Keyboard.current.escapeKey.wasPressedThisFrame)
+        if (IsNPCUIOpen)
         {
-            CloseNPCUI();
+            if (Keyboard.current.escapeKey.wasPressedThisFrame)
+            {
+                CloseNPCUI();
+                return;
+            }
+
+            // Wait for player to release E before activating input field
+            if (waitingForKeyRelease && !Keyboard.current.eKey.isPressed)
+            {
+                waitingForKeyRelease = false;
+
+                if (inputField != null)
+                {
+                    inputField.ActivateInputField();
+                }
+            }
         }
     }
 }

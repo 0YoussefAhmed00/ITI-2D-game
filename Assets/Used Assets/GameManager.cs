@@ -5,7 +5,12 @@ public class GameManager : MonoBehaviour
     [Header("Scene References")]
     public Transform coinParent;
     public ChestOpener chest;
-    public KeyStatusUI keyStatusUI; // Add this line
+    public KeyStatusUI keyStatusUI;
+
+    [Header("Audio")]
+    public AudioSource backgroundMusic;
+    public AudioSource keyCollectedAudio;  // Assign in Inspector
+    public AudioSource keyUpgradedAudio;   // Assign in Inspector
 
     private int coinsRemaining;
     private bool hasKey = false;
@@ -14,8 +19,15 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         coinsRemaining = coinParent.childCount;
+
         if (keyStatusUI != null)
             keyStatusUI.ShowNoKey();
+
+        if (backgroundMusic != null && !backgroundMusic.isPlaying)
+        {
+            backgroundMusic.loop = true;
+            backgroundMusic.Play();
+        }
     }
 
     public void OnCoinCollected(GameObject coin)
@@ -30,8 +42,13 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Key collected!");
         hasKey = true;
+
+        if (keyCollectedAudio != null)
+            keyCollectedAudio.Play();
+
         if (keyStatusUI != null)
             keyStatusUI.ShowNormalKey();
+
         TryOpenChest();
     }
 
@@ -39,33 +56,22 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Key upgraded!");
         keyUpgraded = true;
+
+        if (keyUpgradedAudio != null)
+            keyUpgradedAudio.Play();
+
         if (keyStatusUI != null)
             keyStatusUI.ShowBlueKey();
+
         TryOpenChest();
     }
 
+    public bool HasKey() => hasKey;
+    public bool IsKeyUpgraded() => keyUpgraded;
+    public bool AllCoinsCollected() => coinsRemaining <= 0;
+
     private void TryOpenChest()
     {
-        // No longer auto-opens chest
-        // if (coinsRemaining <= 0 && hasKey && keyUpgraded)
-        // {
-        //     Debug.Log("Opening chest!");
-        //     chest.OpenChest();
-        // }
-    }
-
-    public bool HasKey()
-    {
-        return hasKey;
-    }
-
-    public bool IsKeyUpgraded()
-    {
-        return keyUpgraded;
-    }
-
-    public bool AllCoinsCollected()
-    {
-        return coinsRemaining <= 0;
+        // Chest auto-opening is disabled
     }
 }

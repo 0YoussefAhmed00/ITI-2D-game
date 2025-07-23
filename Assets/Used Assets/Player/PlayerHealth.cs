@@ -5,42 +5,46 @@ using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour
 {
     [Header("Death Settings")]
-    public float deathDelay = 2f;
+    public float deathDelay = 1f;
 
     private Animator animator;
+    private AudioSource audioSource;
     private bool isDead = false;
+
+    private PlayerMovement movement;
+    private PlayerInput input;
 
     private void Start()
     {
-        animator = GetComponent<Animator>();
+        animator    = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
+        movement    = GetComponent<PlayerMovement>();
+        input       = GetComponent<PlayerInput>();
     }
 
     public void KillPlayer()
     {
         if (isDead) return;
-
         isDead = true;
 
-        // Disable player movement
-        PlayerMovement movement = GetComponent<PlayerMovement>();
+        // 1) Disable movement & input immediately
         if (movement != null) movement.enabled = false;
+        if (input    != null) input.enabled = false;
 
-        // Disable player input
-        PlayerInput input = GetComponent<PlayerInput>();
-        if (input != null) input.enabled = false;
+        // 2) Play death sound (via the AudioSource on the player)
+        if (audioSource != null)
+            audioSource.Play();
 
-        // Play death animation
+        // 3) Flip on your “Death” bool so the Animator transitions to your death clip
         if (animator != null)
-        {
-            animator.SetTrigger("Die");
-        }
+            animator.SetBool("Death", true);
 
-        // Load main menu after delay
-        Invoke("LoadMainMenu", deathDelay);
+        // 4) After the delay, load MainMenu
+        Invoke(nameof(LoadMainMenu), deathDelay);
     }
 
     private void LoadMainMenu()
     {
-        SceneManager.LoadScene("MainMenu"); // Replace with your main menu scene name
+        SceneManager.LoadScene("Level1");
     }
 }

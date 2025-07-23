@@ -16,6 +16,9 @@ public class ChestOpener : MonoBehaviour, IInteractable
     private SpriteRenderer spriteRenderer;
     private bool isOpened = false;
 
+    [Header("Audio")]
+    public AudioSource chestAudioSource; // Drag & assign in Inspector (clip + disable Play on Awake)
+
     public GameManager gameManager;
 
     private void Awake()
@@ -36,6 +39,7 @@ public class ChestOpener : MonoBehaviour, IInteractable
     public void Interact()
     {
         if (isOpened) return;
+
         if (gameManager != null &&
             gameManager.AllCoinsCollected() &&
             gameManager.HasKey() &&
@@ -49,12 +53,15 @@ public class ChestOpener : MonoBehaviour, IInteractable
         }
     }
 
-                public void OpenChest()
+    public void OpenChest()
     {
         if (isOpened) return;
         isOpened = true;
 
         spriteRenderer.sprite = openSprite;
+
+        if (chestAudioSource != null)
+            chestAudioSource.Play(); // Play sound once
 
         if (gemObject != null)
             StartCoroutine(LaunchAndEnableGem());

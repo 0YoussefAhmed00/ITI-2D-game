@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private PlayerInput playerInput;
 
+    private Vector2 rawInput;
     private Vector2 moveInput;
     private Vector2 lastMoveDir = Vector2.down;   
 
@@ -20,8 +21,8 @@ public class PlayerMovement : MonoBehaviour
         playerInput = GetComponent<PlayerInput>();
 
         var moveAction = playerInput.actions["Move"];
-        moveAction.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
-        moveAction.canceled += ctx => moveInput = Vector2.zero;
+        moveAction.performed += ctx => rawInput = ctx.ReadValue<Vector2>();
+        moveAction.canceled  += ctx => rawInput = Vector2.zero;
     }
 
     private void Update()
@@ -29,24 +30,33 @@ public class PlayerMovement : MonoBehaviour
         if (Time.timeScale == 0 || WiseNPCInteractable.IsNPCUIOpen)
             return;
 
-        // normalize diagonal
-        if (moveInput.sqrMagnitude > 1f)
-            moveInput = moveInput.normalized;
+        // Snap to horizontal or vertical only
+        if (rawInput != Vector2.zero)
+        {
+            if (Mathf.Abs(rawInput.x) > Mathf.Abs(rawInput.y))
+            {
+                moveInput = new Vector2(Mathf.Sign(rawInput.x), 0f);
+            }
+            else
+            {
+                moveInput = new Vector2(0f, Mathf.Sign(rawInput.y));
+            }
+        }
+        else
+        {
+            moveInput = Vector2.zero;
+        }
 
         bool moving = moveInput != Vector2.zero;
 
-        // if we just moved, remember that direction
         if (moving)
             lastMoveDir = moveInput;
 
-        // choose which direction to feed into the blend‑trees:
+        // Feed blend tree parameters
         Vector2 dir = moving ? moveInput : lastMoveDir;
-
         animator.SetFloat("X", dir.x);
         animator.SetFloat("Y", dir.y);
         animator.SetBool("Moving", moving);
-
-        //RotateTowards(dir);
     }
 
     private void FixedUpdate()
@@ -56,11 +66,4 @@ public class PlayerMovement : MonoBehaviour
 
         rb.MovePosition(rb.position + moveInput * moveSpeed * Time.fixedDeltaTime);
     }
-
-    //private void RotateTowards(Vector2 dir)
-    //{
-    //    if (dir == Vector2.zero) return;
-    //    float angle = Mathf.Atan2(dir.x, dir.y) * Mathf.Rad2Deg;
-    //    transform.rotation = Quaternion.Euler(0f, 0f, -angle);
-    //}
 }
