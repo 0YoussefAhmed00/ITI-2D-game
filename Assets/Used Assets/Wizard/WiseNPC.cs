@@ -19,7 +19,7 @@ public class WiseNPC : MonoBehaviour
 
     [Header("Google Drive Key File")]
     [Tooltip("Use a link like: https://drive.google.com/uc?export=download&id=YOUR_FILE_ID")]
-    public string driveKeyUrl = "https://drive.google.com/file/d/1MmPh6R5sJlqDtqjzCj2hf5yeZ8ZvV8g6/view?usp=drive_link";
+    public string driveKeyUrl = "https://drive.google.com/uc?export=download&id=1MmPh6R5sJlqDtqjzCj2hf5yeZ8ZvV8g6";
 
     [Header("Typewriter Settings")]
     [SerializeField] private float charactersPerSecond = 20f;
