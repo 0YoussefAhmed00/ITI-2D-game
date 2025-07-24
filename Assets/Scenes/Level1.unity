@@ -48614,7 +48614,7 @@ MonoBehaviour:
     try to help.\r\n"
   playerInputField: {fileID: 514301128}
   npcTextOutput: {fileID: 1098158582}
-  apiKey: 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
+  driveKeyUrl: 'https://drive.google.com/uc?export=download&id=1MmPh6R5sJlqDtqjzCj2hf5yeZ8ZvV8g6 '
   charactersPerSecond: 20
   punctuationDelay: 0.5
   audioSource: {fileID: 1076930733}

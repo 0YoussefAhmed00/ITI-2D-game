@@ -17,8 +17,9 @@ public class WiseNPC : MonoBehaviour
     public TMP_InputField playerInputField;
     public TMP_Text npcTextOutput;
 
-    [Header("API Key")]
-    [SerializeField] private string apiKey = "";
+    [Header("Google Drive Key File")]
+    [Tooltip("Use a link like: https://drive.google.com/uc?export=download&id=YOUR_FILE_ID")]
+    public string driveKeyUrl = "https://drive.google.com/file/d/1MmPh6R5sJlqDtqjzCj2hf5yeZ8ZvV8g6/view?usp=drive_link";
 
     [Header("Typewriter Settings")]
     [SerializeField] private float charactersPerSecond = 20f;
@@ -34,12 +35,36 @@ public class WiseNPC : MonoBehaviour
     private Coroutine sleepingCoroutine;
     private bool hasInteracted = false;
 
+    private bool keyLoaded = false;
+    private string apiKey;
+
     private void Start()
     {
         Debug.Log("WiseNPC Initialized.");
-        sleepingCoroutine = StartCoroutine(ShowSleeping());
+        npcTextOutput.text = "Loading API key...";
         playerInputField.onEndEdit.AddListener(HandleSubmit);
-        ResetConversationHistory();
+        StartCoroutine(FetchApiKey());
+    }
+
+    private IEnumerator FetchApiKey()
+    {
+        using UnityWebRequest req = UnityWebRequest.Get(driveKeyUrl);
+        yield return req.SendWebRequest();
+
+        if (req.result == UnityWebRequest.Result.Success)
+        {
+            apiKey = req.downloadHandler.text.Trim();
+            keyLoaded = true;
+            npcTextOutput.text = "";
+            sleepingCoroutine = StartCoroutine(ShowSleeping());
+            ResetConversationHistory();
+            Debug.Log("API key loaded from Drive.");
+        }
+        else
+        {
+            Debug.LogError("Failed to load API key: " + req.error);
+            npcTextOutput.text = "Error loading key.";
+        }
     }
 
     public void ResetConversationHistory()
@@ -56,16 +81,19 @@ public class WiseNPC : MonoBehaviour
 
     public void AskNPC(string playerInput)
     {
-        Debug.Log("Asking NPC: " + playerInput);
+        if (!keyLoaded)
+        {
+            Debug.LogWarning("Still loading API key...");
+            return;
+        }
 
         if (sleepingCoroutine != null) StopCoroutine(sleepingCoroutine);
         if (loadingCoroutine != null) StopCoroutine(loadingCoroutine);
 
         hasInteracted = true;
-
         loadingCoroutine = StartCoroutine(ShowLoadingDots());
-
         StartCoroutine(SendToQwen(playerInput));
+
         playerInputField.text = string.Empty;
         playerInputField.ActivateInputField();
     }
@@ -80,43 +108,33 @@ public class WiseNPC : MonoBehaviour
         var payload = new RequestPayload(conversationHistory);
         string jsonBody = JsonUtility.ToJson(payload);
 
-        using (UnityWebRequest request = new UnityWebRequest(url, "POST"))
+        using UnityWebRequest request = new UnityWebRequest(url, "POST")
         {
-            byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonBody);
-            request.uploadHandler = new UploadHandlerRaw(bodyRaw);
-            request.downloadHandler = new DownloadHandlerBuffer();
-            request.SetRequestHeader("Content-Type", "application/json");
-            request.SetRequestHeader("Authorization", "Bearer " + apiKey);
+            uploadHandler = new UploadHandlerRaw(System.Text.Encoding.UTF8.GetBytes(jsonBody)),
+            downloadHandler = new DownloadHandlerBuffer()
+        };
+        request.SetRequestHeader("Content-Type", "application/json");
+        request.SetRequestHeader("Authorization", "Bearer " + apiKey);
 
-            yield return request.SendWebRequest();
+        yield return request.SendWebRequest();
 
-            if (loadingCoroutine != null) StopCoroutine(loadingCoroutine);
+        if (loadingCoroutine != null) StopCoroutine(loadingCoroutine);
 
-            if (request.result == UnityWebRequest.Result.Success)
-            {
-                var response = JsonUtility.FromJson<QwenResponse>(request.downloadHandler.text);
-                string fullResponse = response.choices[0].message.content.Trim();
-                StartTypingEffect(fullResponse);
-            }
-            else
-            {
-                Debug.LogError("Request Failed: " + request.error);
-                npcTextOutput.text = "The winds are silent... (error)";
-            }
+        if (request.result == UnityWebRequest.Result.Success)
+        {
+            var response = JsonUtility.FromJson<QwenResponse>(request.downloadHandler.text);
+            StartTypingEffect(response.choices[0].message.content.Trim());
+        }
+        else
+        {
+            Debug.LogError("Request Failed: " + request.error);
+            npcTextOutput.text = "The winds are silent... (error)";
         }
     }
 
     private IEnumerator ShowSleeping()
     {
-        string[] sleepStates = {
-            "z",
-            "zZ",
-            "zZzZ",
-            "zZzZzZz...",
-            "zZz",
-            "zZ"
-        };
-
+        string[] sleepStates = { "z", "zZ", "zZzZ", "zZzZzZz...", "zZz", "zZ" };
         int index = 0;
         while (!hasInteracted)
         {
@@ -142,7 +160,6 @@ public class WiseNPC : MonoBehaviour
     {
         if (typingCoroutine != null) StopCoroutine(typingCoroutine);
 
-        // Start typing sound
         if (typingClip != null && audioSource != null)
         {
             audioSource.clip = typingClip;
@@ -167,7 +184,6 @@ public class WiseNPC : MonoBehaviour
                 yield return new WaitForSeconds(delay);
         }
 
-        // Stop typing sound
         if (audioSource != null && audioSource.isPlaying)
             audioSource.Stop();
 
